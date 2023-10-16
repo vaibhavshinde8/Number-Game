@@ -1,9 +1,13 @@
 # Number-Game
 In a number guessing game, the computer or another player selects a random number within a specified range, and the player's objective is to guess the correct number within a limited number of attempts. Typically, the game provides hints to help the player narrow down their guesses.
 
+
+
+
+
+
 import java.util.Scanner;
 import java.util.Random;
-
 public class NumberGame {
     public static void main(String[] args) {
         Scanner st = new Scanner(System.in);
@@ -12,7 +16,6 @@ public class NumberGame {
         int max_num = 100;
         int max_attempts = 5;
         int score = 0;
-
         System.out.println("Number Game :");
         while (true) {
             int generated_num = rndm.nextInt(100);
